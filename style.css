@@ -46,7 +46,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     margin: -15px auto 0;
-    width: 60%;
+    width: 90%;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 0px 5px #D1D5DB;
 }
@@ -79,7 +79,8 @@ a:hover{
     text-align: center;
     color: #DFDDDD;
     font-size: 18px;
-    padding: 50% 0;
+    padding: 30% 0;
+    display: none;
 }
 
 .movie-list > div > i {
@@ -88,4 +89,76 @@ a:hover{
 
 .movie-list > div > p {
     margin: 0;
+}
+
+section{
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #D1D5DB;
+    padding: 20px 0 10px;
+}
+
+.movie-poster > img{
+    width: 100px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p{
+    margin: 10px 0 0;
+}
+
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.top-details,
+.bottom-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.top-details{
+    justify-content: space-between;
+}
+
+.top-details > span{
+    display: flex;
+    align-items: center;
+}
+
+.fa-star{
+    color: #e69214;
+    margin-right: 5px;
+}
+
+.fa-plus-circle{
+    font-size: 16px;
+}
+
+.add-to-watch-btn{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px #D1D5DB;
+    padding: 5px;
+    margin-top: 5px;
 }
